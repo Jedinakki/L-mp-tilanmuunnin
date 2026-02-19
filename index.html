@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lämpötilan Muuntaja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lämpötilanmuunnin</h1>
+    <select name="Muunto suunta" id="valitsin">
+        <option value="0">Celsius -> Fahrenheit</option>
+        <option value="1">Fahrenheit -> Celsius</option>
+    </select>
+    <p>Syötä lämpötila:</p>
+    <input type="text" id="Lampotila">
+    <button id="MuuntoNappi">Muunna</button>
+    <div>
+        <input type="checkbox" id="d1"/> 
+        1 desimaali
+    </div>
+    <div>
+        <input type="checkbox" id="d2"/> 
+        2 desimaali
+    </div>
+    <div>
+        <input type="checkbox" id="d3"/> 
+        3 desimaali
+    </div>
+    <p id="vastaus"></p>
+    <script src="main.js"></script>
+</body>
+</html>
