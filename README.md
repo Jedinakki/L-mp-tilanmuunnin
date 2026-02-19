@@ -1,1 +1,2 @@
-# L-mp-tilanmuunnin
+# Lämpötilanmuunnin
+Simppeli lämpötilan muuttaja Celsiuksesta Fahrenhaittiin ja toisinpäin
